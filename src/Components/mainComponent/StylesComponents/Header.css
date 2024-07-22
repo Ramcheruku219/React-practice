@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2f33;
+    padding: 20px;
+    border-bottom: 2px solid #7289da;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #7289da;
+  }
+  

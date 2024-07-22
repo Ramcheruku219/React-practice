@@ -1,0 +1,81 @@
+.choices-container {
+    background-color: #2c2f33;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .add-choice-button {
+    background-color: #7289da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .filter-container input {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #7289da;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+  }
+  
+  th, td {
+    border: 1px solid #7289da;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #1e1e1e;
+    color: #7289da;
+  }
+  
+  td {
+    background-color: #23272a;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions .fa-edit, .actions .fa-trash-alt {
+    cursor: pointer;
+    color: #7289da;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination span, .pagination select, .pagination button {
+    color: white;
+  }
+  
+  .pagination select, .pagination button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #7289da;
+    background-color: #1e1e1e;
+  }
+  
